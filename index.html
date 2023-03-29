@@ -6,25 +6,89 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+   
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800" rel="stylesheet">
+
 </head>
 
+
+  
 <body>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<div class="hero-image" style="height: 100%;">
+  <div class="hero-text">
+    <h1 style="font-style: Georgia; color: #fff; font-size:50px;">LUCKY YOU</h1>
+    <p>A Saint Patrick's Day-themed lottery</p>
+    <button>SHOP NOW</button>
+  </div>
+  
 
-    <title>Pumpkin</title>
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <br><br>
+        <h2>Promotional Information </h2>
+       Welcome to "Lucky You" St. Patrick's Day Lottery ! This festive event will bring together a group of lucky individuals to compete for the grand prize. Here's all the information you need to know about the event.
+        <br><br><br>
+        <a class="new" href="#">Click Here</a>
+      </div>
+    </div>
+  </div>
+  <!--lightbox style popup goes here-->
+</div>
+  <div id="section1" class=" text-white" style="padding:100px 20px;">
+    <h1>The Life of the Designer</h1>
+   
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up and try your
+    luck</button>
 
-    <link rel="stylesheet" href="style.css">
-  </head>
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+      title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Sign Up and Good Luck</h1>
+        <p></p>
+        <hr>
+        <label for="email"><b>Name</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Email</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
 
 
-  <body>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
 
 
+
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
+     
+  </div>
+
+
+  
+<!--   Section 2 -->
+
+
+ 
 
 </body>
-
+<script src="script.js"></script>
 </html>
