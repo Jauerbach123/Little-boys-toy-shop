@@ -29,7 +29,10 @@ h2{font-family: Georgia;
 
 p {
     font-family: Georgia;
+    font-weight: bold;
     font-style: italic;
+    margin: 10px;
+    text-shadow: 2px 2px #000;
     text-shadow: 1px 1px #000;
 }
 
@@ -42,7 +45,7 @@ p {
 }
 
 .hero-image {
-    background-image: url("st-patrick-s-day-clover-background-free-vector.webp");
+    background-image: url("istockphoto-1278463840-612x612.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
